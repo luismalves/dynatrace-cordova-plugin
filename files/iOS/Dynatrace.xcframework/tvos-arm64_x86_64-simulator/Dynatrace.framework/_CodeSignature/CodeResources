@@ -10,63 +10,67 @@
 		</data>
 		<key>Headers/Dynatrace.h</key>
 		<data>
-		WvdtHg1tS2J7xOlne1BkkLIgCpQ=
+		9HBShNyCHphQBRKMn2uvtxEmVH4=
+		</data>
+		<key>Headers/DynatraceSwiftUI.h</key>
+		<data>
+		l1czVg6rKXDNERXqt5YIVvfsmo0=
 		</data>
 		<key>Headers/Framework.h</key>
 		<data>
-		017HCFeEpxIdSxaugOVfz6JGwM4=
+		uHF77OTJtL3ixU04ib2qpUKAtwQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qp9fUz3hubba0qI7MOCGr+4iX5k=
+		wTrsa10kc+BfS90tREqvNl1gWBM=
 		</data>
 		<key>Modules/Dynatrace.swiftmodule/Project/arm64-apple-tvos-simulator.swiftsourceinfo</key>
 		<data>
-		0IjOlmShSkILXU9QeJ/7ERG9lzA=
+		oPQnY4yAJMH5nUWRgllHjVYkGOY=
 		</data>
 		<key>Modules/Dynatrace.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
 		<data>
-		WT/47/eXcCQG2BfitEc2oHke4OA=
+		mZBOHdxZFXXdGa+xHQABF9Nfdjg=
 		</data>
 		<key>Modules/Dynatrace.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		UcIMUzAHEoZMg8EoGyDHVcJ6RBM=
+		FSPnLbho3G+LL9smI3XgVOqBIQ4=
 		</data>
 		<key>Modules/Dynatrace.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		g8JjOMyVL/qv8657uSDx7yAiyIk=
+		BLshE8vVWsTd/HgeKAt7EdD4A00=
 		</data>
 		<key>Modules/Dynatrace.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		sbShkwaTxiTevl2GNjW3scWRICM=
+		LgNZMWV+hlEptCU2fdasvvbKPY8=
 		</data>
 		<key>Modules/Dynatrace.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		g8JjOMyVL/qv8657uSDx7yAiyIk=
+		BLshE8vVWsTd/HgeKAt7EdD4A00=
 		</data>
 		<key>Modules/Dynatrace.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		j8FQrJcBREE7pYKGgmflr3pfsIQ=
+		qYzeCTMz2E0SCzb+lyMr0QKsgCk=
 		</data>
 		<key>Modules/Dynatrace.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		UcIMUzAHEoZMg8EoGyDHVcJ6RBM=
+		FSPnLbho3G+LL9smI3XgVOqBIQ4=
 		</data>
 		<key>Modules/Dynatrace.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		vsiqwfs0kLLuAV5wFOthTMW5Q9w=
+		rnSzhrzqCNdgg03KeLCMOx20Jps=
 		</data>
 		<key>Modules/Dynatrace.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		BxWUg3c7ZdEZ8TnFIbF0k7b54ZA=
+		KbYGFYaAaL6FaODbAntLEbM4rrU=
 		</data>
 		<key>Modules/Dynatrace.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		vsiqwfs0kLLuAV5wFOthTMW5Q9w=
+		rnSzhrzqCNdgg03KeLCMOx20Jps=
 		</data>
 		<key>Modules/Dynatrace.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		GG2jIJjQA5zhkzIy096wbvMYJg0=
+		HzFymf8VShi7MOGW2FtPBIp/Jbc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -86,98 +90,105 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MFFWoUGl76BQ1O8HWeF0HEL2ZiKpDlvMS0gd+f9BCzE=
+			YtPG9xI96n9n3RWyvlJiaI/hhpGb6b4KQ8akI5PhQuY=
+			</data>
+		</dict>
+		<key>Headers/DynatraceSwiftUI.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2n6UqrsYZzSz89+6lVNLXGWrRH0bnLf41I7n4w1Kmkw=
 			</data>
 		</dict>
 		<key>Headers/Framework.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RnTYWfurbb/o7OPJbwgdfGEqaJcRZrjgMGnhmuuSggY=
+			t1nMu3qjLOiI4FMGN+0ev+395TKrYaI7dMdVPZA9dSs=
 			</data>
 		</dict>
 		<key>Modules/Dynatrace.swiftmodule/Project/arm64-apple-tvos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7x/SR7jA5ykuf1f4K3AAEcZAnDyVMmMthsMFJlx8Jt8=
+			2mWan0FKZkBPentzIrWGRVWmhFalYodhT6hXC9760OE=
 			</data>
 		</dict>
 		<key>Modules/Dynatrace.swiftmodule/Project/x86_64-apple-tvos-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7b4sg36gagRVa9Ualg1BwDxWq2UEVScGbj2WjKK/3bE=
+			Ec/P5zdw/i1gtA6J4mMaxe6qMZV3iQoLlWbVMm4P2nc=
 			</data>
 		</dict>
 		<key>Modules/Dynatrace.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BJGZK9VQLWR1+NflFcGnauK6RcAqy89ps56toKj8IoU=
+			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
 			</data>
 		</dict>
 		<key>Modules/Dynatrace.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rn4Yk+ySPOAMt15Vn2hs8dEm5irxhEru7jAPIpsKMhU=
+			sfiE5c9YKYfoAVXBUsw36rCXbAzon/RWSjpfO7AOBQI=
 			</data>
 		</dict>
 		<key>Modules/Dynatrace.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kTYHVjMQwCSNZan/nr9f9BDjab0EeJnHBmKKOPd/igk=
+			gmVsFFr/4x/qAvIyYA59HTDKmm/o96A8IQ81IX8PpQQ=
 			</data>
 		</dict>
 		<key>Modules/Dynatrace.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rn4Yk+ySPOAMt15Vn2hs8dEm5irxhEru7jAPIpsKMhU=
+			sfiE5c9YKYfoAVXBUsw36rCXbAzon/RWSjpfO7AOBQI=
 			</data>
 		</dict>
 		<key>Modules/Dynatrace.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vWhnYNSIWwcjAgxmbpPAgYUbEFwwcDOZcB4pRERSQYQ=
+			KlUSIPm0S6NfJee6941BeC9D0gLeFqAVfHP0Hh2+X78=
 			</data>
 		</dict>
 		<key>Modules/Dynatrace.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BJGZK9VQLWR1+NflFcGnauK6RcAqy89ps56toKj8IoU=
+			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
 			</data>
 		</dict>
 		<key>Modules/Dynatrace.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1r0JoOSmU7EOmha52ilOmATj67Fs9Zgag7WVgd+w9o0=
+			SrDbTIGjXyGTV8eA7PKcB9cL/S0QmP0Kkf7ijju5IC4=
 			</data>
 		</dict>
 		<key>Modules/Dynatrace.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5tJ0m7kQobMdFtotJh8zwlI6/KkeOO0C3PEiyRfqolk=
+			mHnljAnI/w2+yWDN+/TFyuBjoaUXcqsj4PalN4rnBew=
 			</data>
 		</dict>
 		<key>Modules/Dynatrace.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1r0JoOSmU7EOmha52ilOmATj67Fs9Zgag7WVgd+w9o0=
+			SrDbTIGjXyGTV8eA7PKcB9cL/S0QmP0Kkf7ijju5IC4=
 			</data>
 		</dict>
 		<key>Modules/Dynatrace.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S2EJa2aJU6hvXaLuMuWEnON1s72p2QXso8LX5R61dQ8=
+			9AHUOPa9ZZoYLrfrKNFhyBGO2yHR7Xzvn1XitrSSlqg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

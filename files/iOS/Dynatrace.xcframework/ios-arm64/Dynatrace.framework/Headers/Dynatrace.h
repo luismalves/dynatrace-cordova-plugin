@@ -1,5 +1,5 @@
 // Dynatrace.h
-// Version: 8.259.1.1009
+// Version: 8.281.1.1003
 //
 // These materials contain confidential information and
 // trade secrets of Dynatrace Corporation. You shall
@@ -752,7 +752,14 @@ When the user optin feature is not used:
 
  @param mappingJson generated and passed automatically by the Dynatrace SwiftUI intrumentor.
 */
-+ (void)setLineNumberMapping:(NSString* _Nonnull)mappingJson;
++ (void)setLineNumberMapping:(NSString* _Nonnull)mappingJson __deprecated;
+
+/*!
+ @brief Set SwiftUI instrumentor config data. This method is called automatically by the SwiftUI instrumentor.
+
+ @param dict generated and passed automatically by the Dynatrace SwiftUI intrumentor.
+*/
++ (void)handoverInstrumentorConfig:(NSDictionary* _Nonnull)dict;
 
 /*!
  @brief Send a business event.
@@ -1001,3 +1008,24 @@ extern NSString *_Nonnull const kDTXInstrumentFrameworks;
  If set to true, a label or accessibility identifier of a view will be replaced by the view class name when reporting a touch event.
 */
 extern NSString *_Nonnull const kDTXUIActionNamePrivacy;
+/*!
+@const kDTXFilterSwiftUIActionDuplicates
+ If set to true, actions generated for SwiftUI components will be ignored in favor of generated SwiftUI actions.
+ The default is true for SwiftUI lifecycle apps and false for UIKit/Storyboard lifecycle apps.
+*/
+extern NSString *_Nonnull const kDTXFilterSwiftUIActionDuplicates;
+/*!
+@const kDTXSwiftMappingJson
+ Generated and passed automatically by the Dynatrace SwiftUI intrumentor.
+*/
+extern NSString *_Nonnull const kDTXSwiftMappingJson;
+/*!
+@const kDTXSwiftIsSwiftUIApp
+ Generated and passed automatically by the Dynatrace SwiftUI intrumentor.
+*/
+extern NSString *_Nonnull const kDTXSwiftIsSwiftUIApp;
+/*!
+@const kDTXInstrumentAsyncWebRequests
+ Enables auto-instrumentation of the async URLSession calls. The default value is true.
+*/
+extern NSString *_Nonnull const kDTXInstrumentAsyncWebRequests;
