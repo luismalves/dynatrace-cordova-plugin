@@ -23,11 +23,11 @@ module.exports = function (context) {
 
     // Find the CONFIG_FILE_SUFFIX parameter from the arguments
     var suffix = null;
-    for (const arg of args) {  
-      if (arg.includes('CONFIG_FILE_SUFFIX')){
-        var stringArray = arg.split("=");
-        suffix = stringArray.slice(-1).pop();
-      }
+    for (const arg of args) { 
+        if (arg.includes('CONFIG_FILE_SUFFIX')){
+            var stringArray = arg.split("=");
+            suffix = stringArray.slice(-1).pop();
+        }
     }
 
     var wwwPath = path.join(context.opts.projectRoot,"www");
@@ -36,6 +36,7 @@ module.exports = function (context) {
     // If the CONFIG_FILE_SUFFIX parameter is found, download the file
     if (suffix) {
         configPath = path.join(configPath, suffix);
+        console.log('configPath is: ' + configPath)
     }
 
     files = fs.readdirSync(configPath);
