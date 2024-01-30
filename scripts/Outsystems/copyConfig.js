@@ -18,8 +18,26 @@ module.exports = function (context) {
         path  = context.requireCordovaModule("path");
     }
 
+    // Get the command-line arguments passed to the plugin
+    const args = process.argv;
+
+    // Find the CONFIG_FILE_SUFFIX parameter from the arguments
+    var suffix = null;
+    for (const arg of args) {  
+      if (arg.includes('CONFIG_FILE_SUFFIX')){
+        var stringArray = arg.split("=");
+        url = stringArray.slice(-1).pop();
+      }
+    }
+
     var wwwPath = path.join(context.opts.projectRoot,"www");
     var configPath = path.join(wwwPath, "dynatraceConfig");
+
+    // If the CONFIG_FILE_SUFFIX parameter is found, download the file
+    if (suffix) {
+        configPath = path.join(configPath, suffix);
+    }
+
     files = fs.readdirSync(configPath);
     if(files.length >0){
         copyFolderRecursiveSync(configPath, path.join(context.opts.projectRoot));
