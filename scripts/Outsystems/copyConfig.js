@@ -26,7 +26,7 @@ module.exports = function (context) {
     for (const arg of args) {  
       if (arg.includes('CONFIG_FILE_SUFFIX')){
         var stringArray = arg.split("=");
-        url = stringArray.slice(-1).pop();
+        suffix = stringArray.slice(-1).pop();
       }
     }
 
