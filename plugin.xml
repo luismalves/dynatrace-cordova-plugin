@@ -14,7 +14,7 @@
     <hook src="scripts/Outsystems/npmInstall.js" type="before_plugin_install"/>
     <hook src="scripts/Outsystems/copyConfig.js" type="before_prepare"/>
 
-    <preference name="CONFIG_FILE_SUFFIX" />
+    <!-- <preference name="CONFIG_FILE_SUFFIX" /> -->
 
     <js-module src="networking/NativeNetworkInterceptorUtils.js" name="native-network-interceptor-utils" />
     <js-module src="networking/MobileFirstNetworkInterceptor.js" name="mobile-first-network-interceptor" />
