@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="dynatrace-cordova-plugin"
-    version="1.259.2">
+    version="2.283.1">
     <name>Dynatrace</name>
     <description>Dynatrace Cordova Plugin</description>
 
